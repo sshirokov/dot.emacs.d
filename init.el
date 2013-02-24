@@ -7,4 +7,8 @@
 
 (load "~/.emacs.d/themes/init")
 
+;; TODO: Move
 (require 'smex)
+(require 'dedicated)
+(require 'coffee-mode)
+(require 'ssh)
