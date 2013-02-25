@@ -1,0 +1,9 @@
+[submodule "vendor/coffee-mode"]
+	path = vendor/coffee-mode
+	url = https://github.com/defunkt/coffee-mode.git
+[submodule "vendor/ssh"]
+	path = vendor/ssh
+	url = https://github.com/ieure/ssh-el.git
+[submodule "vendor/smex"]
+	path = vendor/smex
+	url = https://github.com/nonsequitur/smex.git

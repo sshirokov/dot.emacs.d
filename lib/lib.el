@@ -8,6 +8,7 @@ sorted in the order of `directory-files'."
 	  (error "%s is not a directory" dir))
 	(loop for file in (directory-files dir :full)
 		  unless (file-directory-p file)
+		  if (string-match "\\.elc?$" file)
 		  do (load file))))
 
 (defun* add-dir-and-subdirs-to-path (dir &key extra)
