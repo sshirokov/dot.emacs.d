@@ -7,3 +7,6 @@
 [submodule "vendor/smex"]
 	path = vendor/smex
 	url = https://github.com/nonsequitur/smex.git
+[submodule "vendor/znc"]
+	path = vendor/znc
+	url = https://github.com/sshirokov/ZNC.el.git

@@ -2,3 +2,4 @@
 (require 'dedicated)
 (require 'coffee-mode)
 (require 'ssh)
+(require 'znc)
