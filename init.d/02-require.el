@@ -3,3 +3,4 @@
 (require 'coffee-mode)
 (require 'ssh)
 (require 'znc)
+(require 'tls)
