@@ -1,11 +1,11 @@
 (setq nick-face-list '())
 
-;; Define the list of colors to use when coloring IRC nicks.                                                                     
+;; Define the list of colors to use when coloring IRC nicks.
 ;; (setq-default erc-colors-list '("blue" "green" "yellow"
 ;;                                 "white" "brown" "red"
 ;;                                 "purple" "pink" "cyan"))
 
-(setq-default erc-colors-list 
+(setq-default erc-colors-list
               '("#eaeaea"
                 "#d54e53"
                 "#e78c45"
@@ -21,6 +21,12 @@
                 "cyan"
                 "purple"
                 "pink"
+				"#ff0000"
+				"#00ff00"
+				"#0000ff"
+				"#7fffd4"
+				"#daa520"
+				"#00688b"
 ))
 
 (defun build-nick-face-list ()
@@ -48,6 +54,6 @@
                                          (length nick-face-list))
                                     nick-face-list))))))
 
-;; This adds the ERC message insert hook.                                                                                        
+;; This adds the ERC message insert hook.
 (add-hook 'erc-insert-modify-hook 'my-insert-modify-hook)
 (provide 'erc-nick-colors)
