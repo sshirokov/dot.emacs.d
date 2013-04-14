@@ -11,4 +11,4 @@ $ make
 
 Or just be a fucking mess.
 
-### Instructions sold separately
+### Instructions sold separately, this is probably broken, and definitely oudated
