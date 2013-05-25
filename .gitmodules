@@ -10,3 +10,6 @@
 [submodule "vendor/znc"]
 	path = vendor/znc
 	url = https://github.com/sshirokov/ZNC.el.git
+[submodule "vendor/magit"]
+	path = vendor/magit
+	url = https://github.com/magit/magit.git
