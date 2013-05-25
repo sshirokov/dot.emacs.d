@@ -12,6 +12,7 @@
 	 (java-mode . "java")
 	 (awk-mode . "awk")
 	 (other . "gnu"))))
+ '(c-offsets-alist (quote ((label . 0))))
  '(coffee-tab-width 2)
  '(column-number-mode t)
  '(default-frame-alist (quote ((vertical-scroll-bars) (tool-bar-lines . 0) (menu-bar-lines . 1))))
