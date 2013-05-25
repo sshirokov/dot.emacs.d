@@ -88,6 +88,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "#242424" :foreground "#f6f3e8" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "apple" :family "Monaco"))))
  '(erc-input-face ((t (:foreground "#c0c0c0"))))
  '(erc-my-nick-face ((t (:foreground "#26DC2EC03B54" :weight bold))))
  '(erc-timestamp-face ((t (:foreground "#27EE00D80000" :weight bold)))))
