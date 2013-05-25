@@ -6,6 +6,12 @@
  '(backup-by-copying t)
  '(backup-directory-alist (quote (("." . "~/tmp/.emacs.saves"))))
  '(before-save-hook (quote (delete-trailing-whitespace)))
+ '(c-default-style
+   (quote
+	((c-mode . "cc-mode")
+	 (java-mode . "java")
+	 (awk-mode . "awk")
+	 (other . "gnu"))))
  '(coffee-tab-width 2)
  '(column-number-mode t)
  '(default-frame-alist (quote ((vertical-scroll-bars) (tool-bar-lines . 0) (menu-bar-lines . 1))))
